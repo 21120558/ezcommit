@@ -15,4 +15,5 @@ class Controller:
         self.view.display_feature()
     
     def create_commit(self):
+        pass
 

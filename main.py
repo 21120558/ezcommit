@@ -3,7 +3,7 @@ import click
 
 @click.command()
 @click.option('--diff', is_flag=True, help='Display git differences.')
-@click.option('--create-commit', is_flag=True, help='Display git differences.')
+# @click.option('--create-commit', is_flag=True, help='Display git differences.')
 def main(diff):
     controller = Controller()
     controller.display_welcome_message()
